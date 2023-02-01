@@ -2,21 +2,6 @@
 
 This software generates a student's report card along with the class rank. You can register and log in as a student or be the software admin and have access to the data like entering the marks, checking student records, deleting student records and editing student records. 
 
-The Technologies used in this project are:
-1) Python
-Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis.
-
-2) Tkinter
-Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications.
-
-You can install Tkinter by running the following command in the terminal.
-```bash
-  pip install tk
-```
-
-3) MySQL
-Since this is a database based project, MySQL is used.
-
 # Technologies
 
 The Technologies used in this project are:
