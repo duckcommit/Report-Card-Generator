@@ -91,7 +91,7 @@ def mainscreen():
 #COMMAND-REGISTER
 def register():
     if (Namee.get()=='' or Gre.get()=='' or Classe.get()=='' or Dive.get()=='' or Pe.get()=='' or CPe.get()==''):
-        messagebox.showerror("Attention!",'All Fields Are Compulsory')
+        messagebox.showerror("Attention!",'All the Fields Are Compulsory')
     elif Pe.get()!= CPe.get():
         messagebox.showerror("Attention!","Passwords are not same")
     else:
