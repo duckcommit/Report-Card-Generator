@@ -78,7 +78,7 @@ def mainscreen():
     h=Label(text="Already a User?",font=('Calibri',30,'bold'),bg='gray2',fg='white')
     h.place(x=575,y=200)
 
-    aa=Label(text="ReportCard Software- Your friendly Result Viewer", font=('Calibri',25,'bold'),bg="blue",fg='white')
+    aa=Label(text="ReportCard Software - Your friendly Result Viewer", font=('Calibri',25,'bold'),bg="blue",fg='white')
     aa.place(x=90,y=1)
     
     screen.button2=ImageTk.PhotoImage(file='signin.png')
