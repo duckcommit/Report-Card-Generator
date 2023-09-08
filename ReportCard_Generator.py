@@ -156,7 +156,7 @@ def loginuser():
     if grno=='' or passw=='':
         messagebox.showerror("Attention!!","All Fields Are Required",parent=screen2)
     elif grno=='admin' and passw=='admin':
-        messagebox.showinfo("Admin Page","Welcome Admin!")
+        messagebox.showinfo("Admin Page","Welcome back Admin!")
         adminconsole()
     else:
         mydb=ms.connect(host='localhost',user='root',passwd='12345',database='RCS')
