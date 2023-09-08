@@ -105,7 +105,7 @@ def register():
         mc=mydb.cursor()
         mc.execute('INSERT INTO STDETAILS VALUES(%s,%s,%s,%s,%s,NULL,NULL,NULL,NULL,NULL)',(g,n,p,c,d))
         mydb.commit()
-        messagebox.showinfo("Attention!","Account Registered")
+        messagebox.showinfo("Attention!","Account Registered.")
 
         
 #LOGIN PAGE    
