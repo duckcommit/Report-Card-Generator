@@ -165,7 +165,7 @@ def loginuser():
         rec=mc.fetchall()
         count=mc.rowcount
         if count==0:
-            messagebox.showinfo("Error","Check Your Credentials/No Account Found",parent=screen2)
+            messagebox.showinfo("Error","Check Your Credentials/No Account was Found",parent=screen2)
         else:
             for i in rec:
                 g=i[0]
