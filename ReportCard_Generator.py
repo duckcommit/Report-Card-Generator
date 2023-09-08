@@ -17,7 +17,7 @@ mc=mydb.cursor()
 mc.execute('CREATE DATABASE IF NOT EXISTS RCS')
 mc.execute('USE RCS')
 mc.execute("CREATE TABLE IF NOT EXISTS STDETAILS(GRNO VARCHAR(7) PRIMARY KEY, FullName VARCHAR(30), Password VARCHAR(30), Class VARCHAR(2), Division VARCHAR(1), English INT, Maths INT, CS INT, Physics INT, Chemistry INT)")
-Mbox('Attention Users! ','DB Connection Successful!',0)
+Mbox('Attention Users! ','Database Connection Successful!',0)
 
 
 #START-UP PAGE
