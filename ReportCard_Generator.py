@@ -33,7 +33,7 @@ def mainscreen():
     frame1=Frame(screen,bg="gray2")
     frame1.place(x=0,y=55,width=500,height=550)
     
-    RN=Label(frame1,text="Register Now", font=('Calibri',20,'bold'),bg="white",fg='black')
+    RN=Label(frame1,text="Register Now!", font=('Calibri',20,'bold'),bg="white",fg='black')
     RN.place(x=155,y=10)
     
     global Namee
