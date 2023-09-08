@@ -208,7 +208,7 @@ def adminconsole():
     global screen3
     screen3=Toplevel(screen2)
     screen2.withdraw()
-    screen3.title("Admin Console")
+    screen3.title("Admin Screen")
     screen3.geometry("1366x768")
     screen3['bg']="black"
     l1=Label(screen3,text="Admin Page",font=("Calibri",30,'bold'),fg="black",bg='white')
