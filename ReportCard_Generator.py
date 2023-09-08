@@ -25,7 +25,7 @@ def mainscreen():
     global screen
     screen=Tk()
     screen.geometry("1000x667")
-    screen.title("Report Card Software")
+    screen.title("Report Card Software Generator")
     
     screen.bg=ImageTk.PhotoImage(file='bg.png')
     bg=Label(screen,image=screen.bg).place(x=0,y=0,relwidth=1,relheight=1)
