@@ -24,7 +24,7 @@ Mbox('Attention Users! ','Database Connection Successful!',0)
 def mainscreen():
     global screen
     screen=Tk()
-    screen.geometry("1000x667")
+    screen.geometry("1000x600")
     screen.title("Report Card Software Generator")
     
     screen.bg=ImageTk.PhotoImage(file='bg.png')
